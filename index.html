@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PipBoy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- linked css -->
+    <link rel="stylesheet" href="assets/css/tether.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/pipboy.app.css">
+</head>
+<body>
+  <!-- start navigation bar-->
+   <nav class="navbar navbar-toggleable navbar-expand-lg navbar-light">
+       <div class="collapse navbar-collapse" id="mainNav">
+           <ul class="navbar-nav nav-fill">
+               <li class="nav-item active"><a href="#" class="nav-link">STAT</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">INV</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">MAP</a></li>
+               <li class="nav-item"><a href="#" class="nav-link">RADIO</a></li>
+           </ul>
+       </div>
+   </nav>
+  <!-- end navigation bar-->
+
+    <ul class="nav nav-tabs">
+      <li class="nav-item"><a href="#status" class="nav-link" data-toggle="tab">STATUS</a></li>
+      <li class="nav-item"><a href="#special" class="nav-link" data-toggle="tab">SPECIAL</a></li>
+      <li class="nav-item"><a href="#perks" class="nav-link" data-toggle="tab">PARKS</a></li>
+    </ul>
+
+    <div class="tab-content">
+      <div class="tab-pane active" id="status" role="tabpanel">
+        <div class="center-image">
+          <img src="assets/images/vb.png" alt="">
+        </div>
+      </div>
+      <div class="tab-pane" id="special" role="tabpanel">Special</div>
+      <div class="tab-pane" id="perks" role="tabpanel">Perks</div>
+    </div>
+
+    <navbar class="navbar navbar-light navbar-expand-lg pip-footer">
+      <div class="row">
+        <div class="col-3">HP 90/90</div>
+        <div class="col-6">
+          LEVEL 1
+          <div class="level-progress"></div>
+        </div>
+        <div class="col-3">AP 50/50</div>
+      </div>
+    </navbar>
+
+
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/tether.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/pipboy.app.js"></script>
+</body>
+</html>
